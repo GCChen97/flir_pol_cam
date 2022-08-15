@@ -1,0 +1,12 @@
+[PixelFormat]:
+Mono8
+[AcquisitionMode]:
+Continuous
+[Gamma]:
+0.5
+[ExposureMode]:
+Timed
+[ExposureTime]:
+20000
+[AcquisitionFrameRate]:
+20

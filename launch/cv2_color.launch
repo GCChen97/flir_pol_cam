@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<launch>
+  <arg name="config" default="$(dirname)/../configs/config_color.txt"	doc="configuration of camera"/>
+  <node pkg="flir_pol_cam" type="PCam" name="polcam_color" output="screen" args="$(arg config)" cwd="node">
+    <remap from="polcamera/raw" to="polcamera_color/raw"/>
+  </node>
+</launch>

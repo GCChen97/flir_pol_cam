@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<launch>
+  <node pkg="flir_pol_cam" type="DEMO" name="polcam" output="screen" args="" cwd="node">
+  </node>
+</launch>

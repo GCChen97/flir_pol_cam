@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<launch>
+  <arg name="config" default="$(dirname)/../configs/config.txt"	doc="configuration of camera"/>
+  <node pkg="flir_pol_cam" type="PCam" name="polcam" output="screen" args="$(arg config)" cwd="node">
+  </node>
+</launch>
