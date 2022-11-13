@@ -1,6 +1,6 @@
 ## flir_pol_cam
 
-This repository provide a driver to publish images from a FLIR gray/color polarization camera with ROS. The codes can be easily modified and integrate in other projects.
+This repository provides a driver to publish images from a FLIR gray/color polarization camera with ROS. The codes can be easily modified and integrate in other projects.
 
 
 
